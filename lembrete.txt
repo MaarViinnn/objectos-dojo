@@ -1,0 +1,1 @@
+Lembrete: estudar Subversion. Em especial os comandos.
