@@ -1,2 +1,4 @@
 Lembrete: estudar Subversion. Em especial os comandos.
-Lembrete: estudar Subversion. Especialmente os comandos.
+Será que gera conflitos
+===
+Mais conflitos
