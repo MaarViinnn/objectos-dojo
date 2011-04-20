@@ -1,1 +1,0 @@
-INDEX VERSION 1.126+/home/omimura/kdo/projetos/objectos-treinamento/.metadata/.plugins/org.eclipse.jdt.core
