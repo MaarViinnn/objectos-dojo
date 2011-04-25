@@ -1,2 +1,2 @@
 nova linha de config
-outra linha de config
+omimura: outra linha de config
