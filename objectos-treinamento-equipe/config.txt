@@ -1,4 +1,4 @@
-nova linha de config
+linha de config
 segunda linha de config
 nova propriedade
 nova alteração
