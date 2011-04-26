@@ -1,5 +1,0 @@
-linha de config
-segunda linha de config
-nova propriedade
-nova alteração
-segunda linha de config
