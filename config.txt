@@ -1,3 +1,0 @@
-nova linha de config
-Segunda linha de config
-Usuário1 está alterando a terceira linha de config 
