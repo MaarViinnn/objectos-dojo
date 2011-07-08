@@ -1,3 +1,5 @@
 nova linha de config
 segunda linha de config
 Alterando a quarta linha de config agora
+Usuário está inserindo a quinta linha de config
+alterando a sexta linha do arquivo config.txt
