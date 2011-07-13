@@ -2,13 +2,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>br.com.objectos</groupId>
-	<artifactId>objectos-treinamento</artifactId>
+	<artifactId>objectos-dojo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Treinamento Interno Objectos</name>
 	<description>Mini-projeto maven para treinamentos internos.</description>
 	<modules>
-		<module>objectos-treinamento-equipe</module>
+		<module>objectos-dojo-team</module>
 	</modules>
 	<build>
 		<plugins>
