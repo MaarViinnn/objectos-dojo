@@ -1,5 +1,5 @@
 /*
- * TreinoDeTDD.java criado em 26/07/2011
+ * TreinoDeTDD.java criado em 27/07/2011
  * 
  * Propriedade de Objectos Fábrica de Software LTDA.
  * Reprodução parcial ou total proibida.
@@ -17,14 +17,16 @@ import org.testng.annotations.Test;
 public class TreinoDeTDD {
 
   public void objetoRacionalToStringDeveImprimirFormaFracionaria() {
-    Racional umSobreDois = new Racional(1, 2);
-    assertEquals(umSobreDois.toString(), "1/2");
+
+    Racional cincoQuintos = new Racional(3, 5);
+    assertEquals(cincoQuintos.toString(), "3/5");
+
   }
 
-  public void qualquerObjetoRacionalDeveImprimirFormaFracionaria() {
+  public void qualquerObjetoRacionalToStringDeveImprimirFormaFracionaria() {
 
-    Racional doisTercos = new Racional(2, 3);
-    assertEquals(doisTercos.toString(), "2/3");
+    Racional umQuinto = new Racional(8, 10);
+    assertEquals(umQuinto.toString(), "8/10");
 
   }
 

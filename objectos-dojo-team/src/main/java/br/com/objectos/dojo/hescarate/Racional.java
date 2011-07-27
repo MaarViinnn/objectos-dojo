@@ -1,5 +1,5 @@
 /*
- * Racional.java criado em 26/07/2011
+ * Racional.java criado em 27/07/2011
  * 
  * Propriedade de Objectos Fábrica de Software LTDA.
  * Reprodução parcial ou total proibida.
@@ -11,13 +11,22 @@ package br.com.objectos.dojo.hescarate;
  */
 public class Racional {
 
-  public Racional(int i, int j) {
+  Integer numerador;
+  Integer denominador;
+
+  public Racional(int numerador, int denominador) {
+
+    this.numerador = numerador;
+    this.denominador = denominador;
 
   }
 
   @Override
   public String toString() {
-    return "1/2";
+    return numerador.toString() + "/" + denominador.toString();
   }
+
+  // porque fica um "x" cinza no ícone da classe? e no pacote também?
+  //
 
 }
