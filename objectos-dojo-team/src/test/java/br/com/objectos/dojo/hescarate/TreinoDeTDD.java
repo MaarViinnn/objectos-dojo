@@ -18,8 +18,8 @@ public class TreinoDeTDD {
 
   public void objetoRacionalToStringDeveImprimirFormaFracionaria() {
 
-    Racional cincoQuintos = new Racional(5, 5);
-    assertEquals(cincoQuintos.toString(), "5/5");
+    Racional umTerco = new Racional(1, 3);
+    assertEquals(umTerco.toString(), "1/3");
 
   }
 
@@ -42,11 +42,40 @@ public class TreinoDeTDD {
     Racional umMeio = new Racional(1, 2);
     Racional doisTercos = new Racional(2, 3);
 
-    Racional resultado = umMeio.add(doisTercos);
+    Racional resultado = umMeio.mais(doisTercos);
     assertEquals(resultado.toString(), "7/6");
 
     // funcionalidade do teste:
     // * se recebe a soma correta de dois números racionais
+
+  }
+
+  public void deveSerPossivelConstruirUmRacionalPassandoApenasUmInteiro() {
+
+    Racional tres = new Racional(3);
+    assertEquals(tres.toString(), "3/1");
+
+  }
+
+  public void deveRetornarEquivalenteNaFormaReduzida() {
+
+    Racional onzeSetimos = new Racional(66, 42);
+    assertEquals(onzeSetimos.toString(), "11/7");
+
+  }
+
+  public void deveRetornarNaFormaReduzidaMesmoParaValoresNegativos() {
+    Racional onzeSetimosNegativo = new Racional(-66, 42);
+    assertEquals(onzeSetimosNegativo.toString(), "-11/7");
+  }
+
+  public void multiplicacaoDeveFuncionarCorretamente() {
+
+    Racional umMeio = new Racional(1, 2);
+    Racional tresQuintos = new Racional(3, 5);
+
+    Racional resultado = umMeio.vezes(tresQuintos);
+    assertEquals(resultado.toString(), "3/10");
 
   }
 

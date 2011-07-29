@@ -23,14 +23,21 @@ public class Racional {
 
     } else {
 
-      this.numerador = numerador;
-      this.denominador = denominador;
+      int g = mdc(Math.abs(numerador), Math.abs(denominador));
+
+      this.numerador = numerador / g;
+      this.denominador = denominador / g;
 
     }
 
   }
+  public Racional(int i) {
 
-  public Racional add(Racional numero) {
+    this(i, 1);
+
+  }
+
+  public Racional mais(Racional numero) {
 
     int numerador = numero.numerador;
     int denominador = numero.denominador;
@@ -41,10 +48,20 @@ public class Racional {
 
   }
 
+  private int mdc(int a, int b) {
+
+    return b == 0 ? a : mdc(b, a % b);
+
+  }
+
   @Override
   public String toString() {
     return numerador.toString() + "/" + denominador.toString();
 
+  }
+  public Racional vezes(Racional outro) {
+
+    return new Racional(numerador * outro.numerador, denominador * outro.denominador);
   }
 
 }
