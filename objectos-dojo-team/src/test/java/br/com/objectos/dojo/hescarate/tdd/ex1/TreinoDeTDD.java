@@ -10,8 +10,6 @@ import static org.testng.Assert.assertEquals;
 
 import org.testng.annotations.Test;
 
-import br.com.objectos.dojo.hescarate.tdd.ex1.Racional;
-
 /**
  * @author hellen.escarate@objectos.com.br (Hellen Escarate)
  */
@@ -77,10 +75,4 @@ public class TreinoDeTDD {
     assertEquals(resultado.toString(), "3/10");
 
   }
-
-  // supportando adição
-  // definir public add method na classe Racional
-  // que pega outro Racional como parâmetro
-  // deve criar e adicionar um novo Racional que pega a soma
-
 }
