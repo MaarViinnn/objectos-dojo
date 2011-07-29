@@ -5,7 +5,7 @@
  * Reprodução parcial ou total proibida.
  */
 
-package br.com.objectos.dojo.hescarate;
+package br.com.objectos.dojo.hescarate.tdd.ex1;
 
 /**
  * @author hellen.escarate@objectos.com.br (Hellen Escarate)

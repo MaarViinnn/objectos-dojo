@@ -4,11 +4,13 @@
  * Propriedade de Objectos Fábrica de Software LTDA.
  * Reprodução parcial ou total proibida.
  */
-package br.com.objectos.dojo.hescarate;
+package br.com.objectos.dojo.hescarate.tdd.ex1;
 
 import static org.testng.Assert.assertEquals;
 
 import org.testng.annotations.Test;
+
+import br.com.objectos.dojo.hescarate.tdd.ex1.Racional;
 
 /**
  * @author hellen.escarate@objectos.com.br (Hellen Escarate)
@@ -44,9 +46,6 @@ public class TreinoDeTDD {
 
     Racional resultado = umMeio.mais(doisTercos);
     assertEquals(resultado.toString(), "7/6");
-
-    // funcionalidade do teste:
-    // * se recebe a soma correta de dois números racionais
 
   }
 
