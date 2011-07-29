@@ -39,11 +39,15 @@ public class TreinoDeTDD {
 
   public void objetoRacionalToStringDeveAdicionarCampoQueRetornaSoma() {
 
- Racional racional = new Racional(1,2);
- Racional racional2 = new Racional(1,3);
-    
-    racional.add(racional2); 
-    
+    Racional umMeio = new Racional(1, 2);
+    Racional doisTercos = new Racional(2, 3);
+
+    Racional resultado = umMeio.add(doisTercos);
+    assertEquals(resultado.toString(), "7/6");
+
+    // funcionalidade do teste:
+    // * se recebe a soma correta de dois números racionais
+
   }
 
   // supportando adição
