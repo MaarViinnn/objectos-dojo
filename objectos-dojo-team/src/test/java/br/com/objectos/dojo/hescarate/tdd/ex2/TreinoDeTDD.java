@@ -70,11 +70,11 @@ public class TreinoDeTDD {
 
   public void multiplicacaoDeveRetornarCorretamente() {
 
-    Racional2 umMeio = new Racional2(1, 1);
-    Racional2 doisMeios = new Racional2(3, 5);
+    Racional2 umMeio = new Racional2(1, 2);
+    Racional2 tresQuintos = new Racional2(3, 5);
 
-    Racional2 resultado = umMeio.multiplica(doisMeios);
-    assertEquals(resultado.toString(), "3/5");
+    Racional2 resultado = umMeio.multiplica(tresQuintos);
+    assertEquals(resultado.toString(), "3/10");
   }
 
 }

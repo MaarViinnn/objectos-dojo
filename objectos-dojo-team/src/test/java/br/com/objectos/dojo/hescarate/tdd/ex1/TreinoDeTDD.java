@@ -42,15 +42,15 @@ public class TreinoDeTDD {
     Racional umMeio = new Racional(1, 2);
     Racional doisTercos = new Racional(2, 3);
 
-    // Racional resultado = umMeio.mais(doisTercos);
-    // assertEquals(resultado.toString(), "7/6");
+    Racional resultado = umMeio.soma(doisTercos);
+    assertEquals(resultado.toString(), "7/6");
 
   }
 
   public void deveSerPossivelConstruirUmRacionalPassandoApenasUmInteiro() {
 
-    // Racional tres = new Racional(3);
-    // assertEquals(tres.toString(), "3/1");
+    Racional tres = new Racional(3);
+    assertEquals(tres.toString(), "3/1");
 
   }
 
@@ -71,8 +71,8 @@ public class TreinoDeTDD {
     Racional umMeio = new Racional(1, 2);
     Racional tresQuintos = new Racional(3, 5);
 
-    // Racional resultado = umMeio.vezes(tresQuintos);
-    // assertEquals(resultado.toString(), "3/10");
+    Racional resultado = umMeio.multiplica(tresQuintos);
+    assertEquals(resultado.toString(), "3/10");
 
   }
 }
